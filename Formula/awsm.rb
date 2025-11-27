@@ -11,7 +11,7 @@ class Awsm < Formula
   on_macos do
     on_intel do
       url "https://github.com/AleG03/awsm/releases/download/v1.3.11/awsm_1.3.11_darwin_amd64.tar.gz"
-      sha256 "c3f8b8d265256add7635b2e212e6e33bda0e4b65edb4c09ae5e10bb1d6846ae6"
+      sha256 "7567518989120d44f64bbff1f2edaafef6eec006e933a627eb77f30904d0157f"
 
       def install
         bin.install "awsm"
@@ -22,7 +22,7 @@ class Awsm < Formula
     end
     on_arm do
       url "https://github.com/AleG03/awsm/releases/download/v1.3.11/awsm_1.3.11_darwin_arm64.tar.gz"
-      sha256 "a9b6a5889d09085846b68e0ecaae03190059f69a5f6b4e270e2b0f777796ce60"
+      sha256 "fa10864590216746391caf8cec12a4b7a84ca4527082a8aeb7f700ab8d96ea18"
 
       def install
         bin.install "awsm"
@@ -37,7 +37,7 @@ class Awsm < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/AleG03/awsm/releases/download/v1.3.11/awsm_1.3.11_linux_amd64.tar.gz"
-        sha256 "26361cefd78732b7842ec4f54f878657ac9092172f49c7e6d7347fb5781e4b79"
+        sha256 "8ab8b114fa44edeb52ee5c93930b10fc60d65d5193a6d6fec295cd6ac8dcf7ea"
 
         def install
           bin.install "awsm"
@@ -50,7 +50,7 @@ class Awsm < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/AleG03/awsm/releases/download/v1.3.11/awsm_1.3.11_linux_arm64.tar.gz"
-        sha256 "92d46e367a6e011557097718fa3dbdc6b88e0a4629e830bd7d39357307727322"
+        sha256 "159bf1978a4e652c3cf94b44e9e50878df7cb591d7dc0332133c2941b918b09f"
 
         def install
           bin.install "awsm"
