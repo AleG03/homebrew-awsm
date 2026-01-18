@@ -5,13 +5,13 @@
 class Awsm < Formula
   desc "CLI tool to simplify AWS profiles, credentials, and sessions"
   homepage "https://github.com/AleG03/awsm"
-  version "1.3.13"
+  version "1.4.0"
   license "BUSL-1.1"
 
   on_macos do
     on_intel do
-      url "https://github.com/AleG03/awsm/releases/download/v1.3.13/awsm_1.3.13_darwin_amd64.tar.gz"
-      sha256 "e77b9ee3b7a26e9cc91996a0ded9ba79937ba24828b764bdeac0b7da88fe4af3"
+      url "https://github.com/AleG03/awsm/releases/download/v1.4.0/awsm_1.4.0_darwin_amd64.tar.gz"
+      sha256 "08cd8286dfd6903a3786108f8251b9a2c61e727a8cd68aa85bc29178ae328109"
 
       def install
         bin.install "awsm"
@@ -21,8 +21,8 @@ class Awsm < Formula
       end
     end
     on_arm do
-      url "https://github.com/AleG03/awsm/releases/download/v1.3.13/awsm_1.3.13_darwin_arm64.tar.gz"
-      sha256 "84d6eb1f39536beaf36c39e3736d989eb4ac46a37082db9c566971bad5c8ac61"
+      url "https://github.com/AleG03/awsm/releases/download/v1.4.0/awsm_1.4.0_darwin_arm64.tar.gz"
+      sha256 "76f9cd3fa7602b7d2ab1d8c070e7a27957f1605fdcfd29dd395f2aba8f3e7534"
 
       def install
         bin.install "awsm"
@@ -36,8 +36,8 @@ class Awsm < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/AleG03/awsm/releases/download/v1.3.13/awsm_1.3.13_linux_amd64.tar.gz"
-        sha256 "fe7508efb1b48bfdebfd7f9daf73ca7ceca071b8e11ae9686777a77d34caadb8"
+        url "https://github.com/AleG03/awsm/releases/download/v1.4.0/awsm_1.4.0_linux_amd64.tar.gz"
+        sha256 "f5ac31e139169984ea962c6e68c44d722ccef86d5b48804e60df9034e36c3d30"
 
         def install
           bin.install "awsm"
@@ -49,8 +49,8 @@ class Awsm < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/AleG03/awsm/releases/download/v1.3.13/awsm_1.3.13_linux_arm64.tar.gz"
-        sha256 "ee5b38011e9416c24d7c61eabae99a58ad8ff266714399d754acfa31df745b9d"
+        url "https://github.com/AleG03/awsm/releases/download/v1.4.0/awsm_1.4.0_linux_arm64.tar.gz"
+        sha256 "e1cbe3d8c535800654f41582645e6c35d5fe6a72677bc3673e5efb156774a38e"
 
         def install
           bin.install "awsm"
